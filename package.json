@@ -1,8 +1,15 @@
 {
+  "name": "supertest_stream_file",
+  "version": "1.0.0",
+  "description": "Unable to stream file greater than ~128kb",
   "dependencies": {
     "connect-multiparty": "^2.0.0",
     "express": "^4.15.2",
     "uuid": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:varunnayal/supertest_stream_file.git"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
